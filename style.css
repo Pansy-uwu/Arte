@@ -1,0 +1,62 @@
+.uwu {
+    display:contents;
+    background-color: #020086 !important;
+
+}
+
+.navbar {
+    background-color: #000000; /*Color de fondo de la barra de navegación*/
+    color: #FFFFFF; /*Color del texto en la barra de navegación*/
+}
+
+.navbar-brand {
+    color: #FFFFFF; /*Color del texto del logo*/
+}
+
+.nav-link {
+    color: #FFFFFF; /*Color del texto de los enlaces*/
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.logo {
+    flex: 1;
+    text-align: center;
+}
+
+.logo img {
+    max-height: 500px;
+    max-width: 500px;
+    height: auto;
+}
+
+.search {
+    flex: 1;
+    text-align: center;
+}
+
+.search form {
+    display: inline-block;
+}
+
+.search input[type="text"] {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 8px;
+}
+
+.search button[type="submit"] {
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+}
